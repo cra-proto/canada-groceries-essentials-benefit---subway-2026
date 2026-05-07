@@ -1,0 +1,459 @@
+---
+layout: without-h1
+title: "Who is eligible – GST/HST credit"
+description: "The eligibility criteria for individuals to get the goods and services tax/harmonized sales tax (GST/HST) credit, including shared custody situations, and income levels too high to get the credit."
+subject: ""
+keywords: "individual, resource list, RC66, RC65, RC151, GST credit, GST refund, goods and services tax credit, GST cheque, Canada Child Benefit, Children's Special Allowances, Child Disability Benefit, GST/HST credits, eligibility"
+auth:
+  type: "contextual"
+  label: "Sign in"
+  labelExtended: "CRA sign in"
+  link: "https://www.canada.ca/en/revenue-agency/services/e-services/cra-login-services.html"
+altLangPage: "https://www.canada.ca/fr/agence-revenu/services/prestations-enfants-familles/credit-tps-tvh/qui-admissible.html"
+dateModified: 2026-03-02
+dateIssued: 2026-01-30
+breadcrumbs: # By default the Canada.ca crumbs is already set
+  - title: "Taxes"
+    link: "https://www.canada.ca/en/services/taxes.html"
+  - title: "Tax credits and benefits for individuals"
+    link: "https://www.canada.ca/en/services/taxes/child-and-family-benefits.html"
+  - title: "Canada Groceries and Essentials Benefit"
+    link: "https://www.canada.ca/en/revenue-agency/services/child-family-benefits/canada-groceries-essentials-benefit.html"
+feedbackData:
+  section: "Who is eligible – GST/HST credit"
+notedlinks:
+  - title: "Who is eligible – GST/HST credit"
+    link: "https://www.canada.ca/en/revenue-agency/services/child-family-benefits/gst-hst-credit/who-eligible.html"
+  - title: "Repository sitemap"
+    link: "https://cra-proto.github.io/canada-groceries-essentials-benefit---subway-2026/index.html"
+---
+
+<style>
+  div.hidden-action {
+    transform: scaleX(0);
+    overflow: hidden;
+    display: none;
+  }
+
+  div.visible-action {
+    transform: scaleX(1);
+    display: visible;
+  }
+
+  /*Checkbox/Fieldflow radio input sizing,positioning*/
+  .checkbox-zebra>li:nth-child(2n+1) {
+    background-color: #f5f5f5;
+    margin-left: -50px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    padding-left: 50px;
+  }
+
+  .checkbox-zebra [role="checkbox"]::before {
+    background-color: #fff;
+  }
+
+  .std-blt {
+    font-size: 20px;
+    line-height: 1.65em;
+  }
+
+  .std-blt {
+    list-style-type: disc;
+  }
+
+  .std-blt li label {
+    display: block;
+    padding-left: 0px;
+  }
+
+  /********
+         ********
+         ** New checklist example
+         ** May 15, 2020
+         ** Replacing checkkboxes with clickable divs that convey a sense of success to the user
+         ********
+         ********/
+  /* One input per line */
+  .provisional [role="checkbox"] {
+    /* (0,2,0) */
+    cursor: pointer;
+    display: inline-block;
+    padding-left: 15px;
+    position: relative;
+  }
+
+  .provisional [role="checkbox"]::before,
+  .provisional [role="checkbox"]::after {
+    /* (0,2,1) */
+    content: "";
+    left: 0;
+    position: absolute;
+    top: 0;
+    transform: translate(-100%, 0%);
+  }
+
+  .provisional .wb-checklist.wb-checklist-sm {
+    /* (0,3,0) */
+    font-size: 20px;
+  }
+
+  /* the basic, unchecked style */
+  .provisional [role="checkbox"]::before {
+    /* (0,2,1) */
+    border: 4px solid #fff;
+    box-shadow: 0 0 0 2px #000;
+    display: inline-block;
+    height: 36px;
+    width: 36px;
+  }
+
+  .provisional .wb-checklist-sm [role="checkbox"]::before {
+    /* (0,3,1) */
+    border-width: 3px;
+    height: 24px;
+    transform: translate(-100%, 20%);
+    width: 24px;
+  }
+
+  /* hover styling */
+  .provisional [role="checkbox"][aria-checked="false"]:hover::before {
+    /* (0,3,1) */
+    background-image: linear-gradient(to bottom, hsl(10, 0%, 90%), hsl(10, 0%, 100%) 50%);
+  }
+
+  /* focus styling */
+  .provisional [role="checkbox"]:focus {
+    /* (0,3,0) */
+    outline: none;
+  }
+
+  .provisional [role="checkbox"]:focus::before {
+    /* (0,3,2) */
+    box-shadow: 0 0 0 2px #000, 0 0 8px 4px rgb(59, 153, 252);
+  }
+
+  /* the checked style using the [aria-checked='true'] pseudo class and aria-checked=true attribute */
+  .provisional [role="checkbox"][aria-checked="true"]::before {
+    /* (0,3,1) */
+    background-color: #318000;
+    border: none;
+  }
+
+  .provisional [role="checkbox"][aria-checked="true"]::after {
+    /* (0,3,1) */
+    border-color: white;
+    border-style: solid;
+    border-width: 0 5px 5px 0;
+    display: inline-block;
+    height: 26px;
+    width: 13px;
+    transform: translate(-185%, 10%) rotate(45deg);
+  }
+
+  .provisional .wb-checklist-sm [role="checkbox"][aria-checked="true"]::after {
+    /* (0,3,1) */
+    border-width: 0 4px 4px 0;
+    height: 16px;
+    width: 9px;
+    transform: translate(-185%, 40%) rotate(45deg);
+  }
+
+  /*Fix checkboxes in zebra list*/
+  .gc-chckbxrdio>li>input[type=checkbox]+label::before {
+    margin-left: -20px;
+    margin-top: 10px;
+  }
+
+  .gc-chckbxrdio>li>input[type=checkbox]+label::after {
+    margin-left: -20px;
+    margin-top: 10px;
+  }
+
+  .gc-chckbxrdio>li:nth-child(2n+1)>input[type=checkbox]+label::before {
+    margin-left: 30px;
+    margin-top: 20px;
+    background-color: #fff;
+  }
+
+  .gc-chckbxrdio>li:nth-child(2n+1)>input[type=checkbox]+label::after {
+    margin-left: 30px;
+    margin-top: 20px;
+  }
+</style>
+<div class="container">
+    <nav class="provisional gc-subway" aria-label="Subway navigation menu">
+        <h1>GST/HST credit</h1>
+        <ul>
+            <li><a href="https://www.canada.ca/en/revenue-agency/services/child-family-benefits/gst-hst-credit/who-eligible.html" class="active">Who is eligible</a></li>
+            <li><a href="https://www.canada.ca/en/revenue-agency/services/child-family-benefits/gst-hst-credit/how-much.html">How much you can get</a></li>
+            <li><a href="https://www.canada.ca/en/revenue-agency/services/child-family-benefits/gst-hst-credit/get-credit.html">How to get the credit</a></li>
+            <li><a href="https://www.canada.ca/en/revenue-agency/services/child-family-benefits/gst-hst-credit/payment-dates.html">Payment dates</a></li>
+            <li><a href="https://www.canada.ca/en/revenue-agency/services/child-family-benefits/gst-hst-credit/payments-stop-change.html">Reasons for stopped or changed payments</a></li>
+        </ul>
+    </nav>
+    <h1 property="name" id="wb-cont" dir="ltr">Who is eligible</h1>
+    <p>You may be eligible to receive the GST/HST credit and any related provincial and territorial credits, even if you have no income in the year.</p>
+    <p>If you are currently receiving the Canada child benefit (CCB) for a child, they are automatically considered when the Canada Revenue Agency (CRA) calculates your GST/HST credit amount.</p>
+    <h2 class="h3 mrgn-tp-md">On this page</h2>
+    <nav class="provisional" aria-label="Table of content">
+        <ul>
+            <li><a href="#toc1">Eligibility criteria</a></li>
+            <li><a href="#toc2">Income thresholds entitled to receive the credit</a></li>
+            <li><a href="#toc3">If you have shared custody</a></li>
+        </ul>
+    </nav>
+    <h2 id="toc1">Eligibility criteria</h2>
+    <p>You are eligible for the GST/HST credit if you meet all of the following conditions:</p>
+    <ul class="checkbox-zebra gc-chckbxrdio">
+        <li class="checkbox">
+            <input type="checkbox" id="eg1" name="action-checkbox" value="additional" />
+            <label for="eg1">
+                <div class="row">
+                    <div class="col-sm-11">
+                        <p>You are a resident of Canada for tax purposes during <strong>both</strong> periods:</p>
+                    </div>
+                </div>
+                <ul class="mrgn-tp-sm gc-font-2019">
+                    <li>In the month before the CRA makes a payment</li>
+                    <li>At the start of the month when a payment is made</li>
+                </ul>
+                <details class="mrgn-rght-md mrgn-tp-sm gc-font-2019">
+                    <summary>Who is considered a resident of Canada</summary>
+                    <p>You are considered to be a resident if you normally live in Canada and have established significant residential ties, for example if you have:</p>
+                    <ul>
+                        <li>A home in Canada</li>
+                        <li>A spouse or common-law partner in Canada</li>
+                        <li>Dependants in Canada</li>
+                    </ul>
+                    <p>If you are unsure about your residency status, refer to: <a href="https://www.canada.ca/en/revenue-agency/services/tax/international-non-residents/information-been-moved/determining-your-residency-status.html">Determining your residency status</a>.</p>
+                </details>
+            </label>
+        </li>
+        <li class="checkbox">
+            <input type="checkbox" id="eg3" name="action-checkbox" value="additional" />
+            <label for="eg3">
+                <ul class="cnjnctn-type-or mrgn-rght-md gc-font-2019">
+                    <li class="cnjnctn-col">
+                        <p class="mrgn-tp-0">You are at least 19&nbsp;years old</p>
+                        <details class="gc-font-2019">
+                            <summary>If you are turning 19 during the year</summary>
+                            <p>If you have filed your tax return and meet all other eligibility criteria, the CRA will issue your first payment on the next payment date that comes after your 19th birthday.</p>
+                        </details>
+                    </li>
+                    <li class="cnjnctn-col">
+                        <p>You are under 19 years old and meet at least <strong>one</strong> of the following conditions:</p>
+                        <ul>
+                            <li>You have (or had) a spouse or common-law-partner</li>
+                            <li>You are (or were) a parent and live (or lived) with your child</li>
+                        </ul>
+                    </li>
+                </ul>
+            </label>
+        </li>
+    </ul>
+    <div class="alert alert-info provisional" id="action-all-default-msg">
+        <h3 class="h4">You need all of the above to be eligible</h3>
+        <p>To be eligible for the GST/HST credit, you must meet all of the above criteria.</p>
+    </div>
+    <div class="alert alert-warning hidden provisional" id="action-all-not-qualify-msg">
+        <p class="text-muted">Based on your selections above:</p>
+        <h3 class="mrgn-tp-sm h4">You may not meet all of the criteria</h3>
+        <p>To be eligible for the GST/HST credit, you must meet all of the above criteria.</p>
+    </div>
+    <div class="alert alert-success hidden provisional" id="action-all-qualify-msg">
+        <p class="text-muted">Based on your selections above:</p>
+        <h3 class="mrgn-tp-sm h4">You may be eligible for the credit</h3>
+        <div>
+            <p>You meet the criteria for the GST/HST credit, however you must also check if you are entitled to receive the credit based on your adjusted family net income level.</p>
+        </div>
+        <div>
+            <p>You may need to provide additional details to the CRA to confirm your eligibility.</p>
+        </div>
+    </div>
+    <h2 id="toc2">Income thresholds entitled to receive the credit</h2>
+    <p>
+        You may be entitled to receive the GST/HST credit if your <a class="wb-lbx lbx-modal" href="#afni">adjusted family net income<span class="far fa-question-circle mrgn-lft-sm"></span></a> is <strong>less than</strong> the maximum income level thresholds listed below.
+    </p>
+    <p>Check maximum income thresholds for:</p>
+    <details>
+        <summary>Single individuals without children and single parent families</summary>
+        <p>Your adjusted family net income must be <strong>less than</strong> the maximum income thresholds to be entitled to receive the GST/HST credit.</p>
+        <div class="table-responsive section">
+            <table class="table table-bordered">
+                <caption>
+                    Maximum income level thresholds for single individuals without children and single parent families
+                </caption>
+                <tbody>
+                    <tr>
+                        <th scope="col">Base Years</th>
+                        <th scope="col">With no children</th>
+                        <th scope="col">With one child</th>
+                        <th scope="col">With 2 children</th>
+                        <th scope="col">With 3 children</th>
+                        <th scope="col">With 4 children</th>
+                    </tr>
+                    <tr>
+                        <th scope="row">2024</th>
+                        <td>$56,181</td>
+                        <td>$63,161</td>
+                        <td>$66,841</td>
+                        <td>$70,521</td>
+                        <td>$74,201</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2023</th>
+                        <td>$54,704</td>
+                        <td>$61,504</td>
+                        <td>$65,084</td>
+                        <td>$68,664</td>
+                        <td>$72,244</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2022</th>
+                        <td>$52,255</td>
+                        <td>$58,755</td>
+                        <td>$62,175</td>
+                        <td>$65,595</td>
+                        <td>$69,015</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2021</th>
+                        <td>$49,166</td>
+                        <td>$55,286</td>
+                        <td>$58,506</td>
+                        <td>$61,726</td>
+                        <td>$64,946</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </details>
+    <details>
+        <summary>Married or common-law individuals with or without children</summary>
+        <p>Your adjusted family net income must be <strong>less than</strong> the maximum income thresholds to be entitled to receive the GST/HST credit.</p>
+        <div class="table-responsive section">
+            <table class="table table-bordered">
+                <caption>
+                    Maximum income thresholds for married or common law individuals with or without children
+                </caption>
+                <tbody>
+                    <tr>
+                        <th scope="col">Base Years</th>
+                        <th scope="col">With no children</th>
+                        <th scope="col">With one child</th>
+                        <th scope="col">With 2 children</th>
+                        <th scope="col">With 3 children</th>
+                        <th scope="col">With 4 children</th>
+                    </tr>
+                    <tr>
+                        <th scope="row">2024</th>
+                        <td>$59,481</td>
+                        <td>$63,161</td>
+                        <td>$66,841</td>
+                        <td>$70,521</td>
+                        <td>$74,201</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2023</th>
+                        <td>$57,924</td>
+                        <td>$61,504</td>
+                        <td>$65,084</td>
+                        <td>$68,664</td>
+                        <td>$72,244</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2022</th>
+                        <td>$55,335</td>
+                        <td>$58,755</td>
+                        <td>$62,175</td>
+                        <td>$65,595</td>
+                        <td>$69,015</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2021</th>
+                        <td>$52,066</td>
+                        <td>$55,286</td>
+                        <td>$58,506</td>
+                        <td>$61,726</td>
+                        <td>$64,946</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </details>
+    <h2 id="toc3">If you have shared custody</h2>
+    <p>Parents in a shared custody situation may be eligible for half of the GST/HST credit for that child. This also applies to any related provincial and territorial credits.</p>
+    <p>If you are receiving the CCB for a child, that child is automatically included in your GST/HST credit calculation. If you become primarily responsible for the care and upbringing of a child, your GST/HST credit and related provincial or territorial amounts will increase based on your updated CCB information.</p>
+    <p>If a child is legally, physically, or financially under the responsibility of a child welfare agency, you are not generally eligible for the GST/HST credit for that child.</p>
+    <p><a href="https://www.canada.ca/en/revenue-agency/services/child-family-benefits/canada-child-benefit/who-apply.html#determinecustody">Determine if your situation qualifies as shared custody for the CCB</a></p>
+    <nav class="mrgn-bttm-lg">
+        <h3 class="wb-inv">Document navigation</h3>
+        <ul class="pager">
+            <li class="next">
+                <a href="https://www.canada.ca/en/revenue-agency/services/child-family-benefits/gst-hst-credit/how-much.html" rel="next"><span class="wb-inv">Next: </span>How much you can get</a>
+            </li>
+        </ul>
+    </nav>
+    <section id="afni" class="mfp-hide modal-dialog modal-content overlay-def">
+        <header class="modal-header">
+            <h2 class="modal-title">Adjusted family net income</h2>
+        </header>
+        <div class="modal-body">
+            <p>If you have a spouse or common-law partner, your adjusted net incomes are combined to get your adjusted family net income (AFNI).</p>
+            <p>Your AFNI is:</p>
+            <div class="wb-math-grid">
+                <div class="mg-row">
+                    <div class="mg-cell"></div>
+                    <div class="mg-cell text-right">Your family net income (line 23600 of your tax return, plus line 23600 of your spouse's or common-law partner's tax return, if applicable)</div>
+                </div>
+                <div class="mg-row">
+                    <div class="mg-cell h4">−</div>
+                    <div class="mg-cell text-right">any Universal Child Care Benefit (UCCB) and registered disability savings plan (RDSP) income received (line 11700 and line 12500 of your or your spouse's tax return, if applicable)</div>
+                </div>
+                <div class="mg-row">
+                    <div class="mg-cell h4">+</div>
+                    <div class="mg-cell text-right">any UCCB and RDSP amounts repaid (line 21300 and line 23200 of your or your spouse's tax return, if applicable)</div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+<div class="container"></div>
+<div class="container"></div>
+
+<script>_satellite.pageBottom();</script>
+<script>
+    "use strict";
+    
+    let updateChkbx = function(chkbxGroup, chkbxChecked, defaultID, validID, invalidID) { 
+        if (chkbxChecked.length === 0) {
+            $("#" + invalidID).addClass("hidden").removeClass("visible");
+            $("#" + validID).addClass("hidden").removeClass("visible");
+            $("#" + defaultID).removeClass("hidden").addClass("visible");
+        } else if (chkbxGroup.length === chkbxChecked.length) {
+            $("#" + defaultID).addClass("hidden").removeClass("visible");
+            $("#" + invalidID).addClass("hidden").removeClass("visible");
+            $("#" + validID).removeClass("hidden").addClass("visible");
+        } else {
+            $("#" + defaultID).addClass("hidden").removeClass("visible");
+            $("#" + validID).addClass("hidden").removeClass("visible");
+            $("#" + invalidID).removeClass("hidden").addClass("visible");
+        }
+    },
+    updateChkbxList = function () {
+        updateChkbx($(":input[type=checkbox][name=action-checkbox]"), $(":input[type=checkbox][name=action-checkbox]:checked"), "action-all-default-msg", "action-all-qualify-msg", "action-all-not-qualify-msg");
+    }, 
+    updatePartChkbxList = function () {
+        updateChkbx($(":input[type=checkbox][name=action-checkbox][value=true]"), $(":input[type=checkbox][name=action-checkbox][value=true]:checked"), "action-default-msg", "action-qualify-msg", "action-not-qualify-msg");
+    };
+    
+    window.onload = function () {
+        updateChkbxList();
+        updatePartChkbxList();
+    }
+
+    $(":input[type=checkbox][name=action-checkbox]").change(updateChkbxList);
+    $(":input[type=checkbox][name=action-checkbox][value=true]").change(updatePartChkbxList);
+
+</script>
